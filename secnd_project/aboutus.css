@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#about-us{
+    height: 100%;
+    width: 100%;
+    background-color: #b8f5f6;
+}
+
+#our-sponsers{
+    border: 2px solid;
+    padding: 120px 0 120px 0;
+}
+#our-sponsers ul li{
+    margin: 30px;
+    padding: 20px;
+    display: flex;
+    /* flex-direction: column; */
+    border-color: black;
+    list-style: none;
+    border-radius: 10px;
+    flex-direction: column  ;
+}
+
+#our-sponsers ul li img{
+    height: 180px;
+}
+
+
+#about-us h1{
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+#about-us #location h1{
+    text-align: center;
+    font-size: 45px;
+
+}
+
+#about-us #location p{
+    text-align: center;
+    margin: 16,0,32,0;
+}
+
+
+#about-us ul li{
+    display: inline;
+} 

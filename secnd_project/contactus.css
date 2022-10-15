@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#contact{
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+}
+
+#contact h1{
+    text-align: center;
+    font-size: 35px;
+    font-family: cursive;
+}
+
+#contact-form label{
+    display: flex;
+    flex-direction: row;
+    font-family: 'qwitcher grypen', cursive;
+    margin-left: 85px;    
+    
+}
+
+#contact-form input{
+    font-family: 'qwitcher grypen', cursive;
+    cursor: auto;
+    margin-left: 85px;
+    
+}
+#contact-form textarea{
+    font-family: 'qwitcher grypen', cursive;
+    cursor:auto;
+    margin-left: 85px;
+}
+
+.contact-us{
+    /* height: 10px; */
+    margin: 20px;
+    padding: 5px;
+
+}
+
+#contact button{
+    margin-top:0px;
+    margin-left: 185px;
+    border-radius: 3px;
+    font-family: 'qwitcher grypen', cursive;
+}
+
+#contact button:hover{
+    cursor: pointer;
+    /* background-color: blue; */
+}
+
+#contact-form img{
+        border: 2px solid;
+    height: 350px;
+    /* width: 500px; */
+    margin-left: 700px;
+    margin-bottom: 20px;
+    float:right;
+    display: inline;
+
+}
+
+form{
+    float: inline-start;
+    display: inline;
+}
+
+.image img{
+    height: 500px;
+    float: right;
+    margin-right: 60px
+}

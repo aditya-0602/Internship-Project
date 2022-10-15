@@ -1,0 +1,143 @@
+/* CSS Reset */
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/* CSS variables */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* NAVIGATION BAR */
+#navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+
+}
+
+#navbar::before {
+    /* content: ""; */
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 80%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+/* NAVIGATION BAR: logo and image */
+#logo {
+    margin: 10px 13px;
+}
+
+/* NAVIGATION BAR: image */
+#logo img {
+    margin: 1px;
+    padding: 2px;
+    height: 40px;
+}
+
+#navbar ul {
+    display: flex;
+    margin: 10px;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+#navbar ul li {
+    font-size: 0.8rem;
+    margin: 0px;
+    padding: 2px;
+    list-style: none;
+
+}
+
+ul li a {
+    color:black;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 5px;
+    display: block;
+    padding: 3px 15px;
+
+}
+
+ul li a:hover {
+    color: rgb(162, 88, 88);
+    background-color: black;
+}
+
+/* home section */
+#home {
+
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://cdn.britannica.com/36/123536-050-95CB0C6E/Variety-fruits-vegetables.jpg);
+    /* background: url('homelogo.webp'); */
+    height: 80%;
+    width: 68.7%;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.95;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+
+#home button {
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: 'qwitcher grypen', cursive;
+}
+
+#home button:hover {
+    background-color: black;
+    color: white;
+    border-color:white;
+}
+
+#home h1 {
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 30px;
+    padding: 15px;
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+#home p {
+    color: white;
+    padding: 3px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+footer h2{
+    text-align: center;
+    margin-top: 420px;
+}
+footer img{
+    height: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+footer #contactimage{
+    margin-left: 450px;
+}
+footer img:hover{
+    cursor: pointer;
+    height: 55px;
+}
